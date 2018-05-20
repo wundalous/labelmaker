@@ -1,0 +1,11 @@
+<article class="label-item">
+  <h1>Flora of {{geoSecondaryDivision}}</h1>
+  <h2>{{geoTertiaryDivision}}</h2>
+  <p><b>{{family}}</b></p>
+  <p><i>{{genus}} {{specificEpithet}}</i> {{authority}} {{rank}}<i> {{infraspecificName}}</i> {{infraspecificAuthority}}</i></p>
+  <p><u>Loc.:</u> {{{locality}}}</p>
+  <p><u>Habitat:</u> {{{ecology}}}</p>
+  {{#observations}}<p><u>Notes:</u> {{{observations}}}</p>{{/observations}}
+  <p><u>Elev.:</u> {{elevation}} {{elevationUnit}}<span style="float:right;"><u>Lat./Long.:</u> {{latitudeDecimal}}&deg;, {{longitudeDecimal}}&deg;</span></p>
+  <p>{{date}} <span style="float:right;">{{collector}} &#8470; <b>{{collectionNumber}}</b>{{#additionalCollectors}}, with {{additionalCollectors}} {{/additionalCollectors}}</span></p>
+</article>
